@@ -93,6 +93,16 @@ namespace RPGProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap E84YaDkWEAA2r9I {
+            get {
+                object obj = ResourceManager.GetObject("E84YaDkWEAA2r9I", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fighter {
             get {
                 object obj = ResourceManager.GetObject("Fighter", resourceCulture);

@@ -9,13 +9,13 @@ namespace RPGProject
     //game manager
     public class DungeonGame
     {
-        GameGUI gameGUI;
-        GameLogic gameLogic;
+        GameGUI gameGUI = new GameGUI();
+        GameLogic gameLogic = new GameLogic();
 
         public DungeonGame()
         {
-            gameGUI = new GameGUI();
-            gameLogic = new GameLogic();
+            gameLogic.HeroesUpdate += gameGUI.HeroesUpdateHandler;
+            gameLogic.InitializeGame();
             Application.Run(gameGUI);
         }
     }
